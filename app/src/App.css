@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*nav-bar*/
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: #EEA47F ;
+  box-shadow: 0px 4px 3px #8e7b7b;
+  position: sticky;
+  top:0;
+  z-index: 999;
+  height: 100px;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav .image{
+  display: flex;
+  justify-content: left;
+  margin-left: 2%;
+  width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav .image .logo img{
+  height: 100px;
+  width: 100px;
+}
+
+.nav .image .heading h1{
+  font-size: 35px;
+  margin-top: 5%;
+}
+
+.nav .options ul{
+  display: flex;
+}
+
+.nav .options ul li{
+  list-style: none;
+  font-size: large;
+  margin: 35px 20px;
+}
+
+.nav .options ul li a{
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+  border: 1px solid #00539C;
+  padding: 12px 17px;
+  background-color: rgb(52, 45, 45);
+  border-radius: 5px;
+  box-shadow: 3px 4px 3px #8e7b7b;
+}
+
+.nav .theme1 {
+  margin: 35px;
+  margin-left: 10%;
+}
+
+.nav .theme1 i{
+  font-size: 30px;
+}
+
+.nav .options ul li a.active, .nav .options ul li a:hover{
+  background-color:#8d8472;
+}
+
+/*nav-bar*/
+
+/*Home-section*/
+
+.home{
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  width: 100%;
+}
+
+.home .teacher{
+  height: 121.4%;
+  width: 50%;
+  background-image: linear-gradient(#bdc3c7 , #2c3e50);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  
+}
+
+.teacher h1{
+  color: black;
+}
+
+.teacher p{
+  padding-left: 23%;
+  padding-right: 20%;
+  color: rgb(235, 212, 212);
+}
+
+.teacher .tlog{
+  text-decoration: none;
+  font-size: medium;
+  padding: 12px 40px;
+  background-color: rgb(48, 44, 44);
+  font-weight: 600;
+  border-radius: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.teacher .tsign{
+  font-weight: bold;
+  text-decoration: none;
+  color: #2bb050;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home .student{
+  height: 121.4%;
+  width: 50%;
+  background-image: linear-gradient(#bdc3c7 , #2c3e50);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.student h1{
+  color: black;
+}
+
+.student p{
+  padding-left: 23%;
+  padding-right: 20%;
+  color: rgb(235, 212, 212);
+}
+
+.student .tlog{
+  text-decoration: none;
+  font-size: medium;
+  padding: 12px 40px;
+  background-color: rgb(48, 44, 44);
+  font-weight: 600;
+  border-radius: 10px;
+  color: white;
+}
+
+.student .tsign{
+  font-weight: bold;
+  text-decoration: none;
+  color: #2bb050;
+}
+
+/*Home-section*/

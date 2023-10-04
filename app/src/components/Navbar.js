@@ -1,7 +1,27 @@
-import React from 'react'
-
+import React, { Fragment } from 'react'
+import { NavLink } from 'react-router-dom'
+import Image from "../images/logo.png"
 export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <Fragment>
+      <div className='nav'>
+        <div className='image'>
+          <div className='logo'>
+            <img src={Image}/>
+          </div>
+          <div className='heading'>
+            <h1>Aptitude and Logical Reasoning</h1>
+          </div>
+        </div>
+        <div className='theme1'><i class="fa-regular fa-moon"></i></div>
+        <div className = 'options'>
+          <ul>
+            <li>
+              <NavLink to="/signup">SignUp</NavLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </Fragment>
   )
 }
