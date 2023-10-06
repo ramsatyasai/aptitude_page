@@ -1,5 +1,8 @@
 import './App.css';
 import './screens/Home.js';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,7 +26,9 @@ function App() {
           <Route exact path='/login' element = {<Login_student/>}/>
           <Route exact path='/teachers_signup' element = {<Signup_teachers/>}/>
           <Route exact path='/signup' element={<Signup_student/>}/>
+          <Route exact path='/dashboard' element={<dashboard/>}/>
         </Routes>
+        <ToastContainer />
       </div>
     </Router>
   );
