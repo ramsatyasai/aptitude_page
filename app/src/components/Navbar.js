@@ -4,9 +4,7 @@ import Image from "../images/logo.png"
 export default function Navbar() {
   const location = useLocation();
   return (
-    
     <Fragment>
-      
       <div className='nav'>
         <div className='image'>
           <div className='logo'>

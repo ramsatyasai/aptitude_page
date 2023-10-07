@@ -363,3 +363,43 @@
 }
 
 /*student-signup section*/
+
+/*sidenav section*/
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+}
+
+.sidenav .top-image img{
+  height: 150px;
+  width: 150px;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+
+.sidenav .topics ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.sidenav .topics ul li a:hover{
+  background-color: #2bb050;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sidenav .topics li{
+  margin: 35px;
+  list-style: none;
+}
+
+.sidenav .topics{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*sidenav section*/

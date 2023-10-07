@@ -1,6 +1,6 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import { NavLink } from 'react-router-dom';
 
 export default function Home() {
   return (
