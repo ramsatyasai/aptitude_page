@@ -26,7 +26,7 @@ export default function Login() {
       if (response.ok) {
         const data = await response.json();
         console.log(data);
-        navigate('/dashboard'); 
+        navigate('/numbersystem'); 
         toast('Welcome to AptiLogicPro!!', {
             position: "top-right",
             autoClose: 5000,

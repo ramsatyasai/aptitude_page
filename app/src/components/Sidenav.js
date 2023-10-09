@@ -7,6 +7,7 @@ export default function Sidenav() {
     <div className='sidenav'>
         <div className='top-image'>
             <img src={Image}/>
+            <h2>APTITUDE</h2>
         </div>
         <div className='topics'>
             <ul>
