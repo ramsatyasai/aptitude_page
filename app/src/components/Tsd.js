@@ -23,7 +23,7 @@ export default function Tsd() {
             <li>1⁄p:1⁄q or q : p</li>
             </ul><br/>
             <p>The average speed of the journey is</p><br/>
-            <ul className='lists'>
+            <ul className='mainpoints'>
                 <li>(2pq⁄p+q)km/hr.</li>
             </ul><br/>
             <p>if a man covers a certain distance at p km/hr and an equal distance at q km/hr</p><br/>        </div>
