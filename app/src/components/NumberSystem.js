@@ -4,7 +4,7 @@ import Sidenav from './Sidenav'
 export default function NumberSystem() {
   return (
     
-    <div className='numbersystem'>
+    <div className='topics'>
         <div className='topicbar'>
             <Sidenav/>
         </div>    

@@ -9,7 +9,7 @@ export default function Sidenav() {
             <img src={Image}/>
             <h2>APTITUDE</h2>
         </div>
-        <div className='topics'>
+        <div className='topics1'>
             <ul>
                 <li><NavLink to='/numbersystem'>Aptitude - Number Systems</NavLink></li>
                 <li><NavLink to='/basic'>Aptitude - Basic Arithmetic</NavLink></li>

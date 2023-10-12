@@ -391,32 +391,32 @@
   margin-left: 22%;
 }
 
-.sidenav .topics ul li a{
+.sidenav .topics1 ul li a{
   text-decoration: none;
   color: #000000;
   font-weight: 600;
 }
 
-.sidenav .topics ul li a:hover{
+.sidenav .topics1 ul li a:hover{
   background-color: rgb(205, 202, 190);
   border-radius: 10px;
   padding: 10px;
 }
 
-.sidenav .topics ul li a.active{
+.sidenav .topics1 ul li a.active{
   background-color: rgb(205, 202, 190);
   padding: 10px;
   border-radius: 10px;
 }
 
-.sidenav .topics li{
+.sidenav .topics1 li{
   margin-left: 45px;
   margin-bottom: 35px;
   list-style: none;
   margin-top: 15px;
 }
 
-.sidenav .topics{
+.sidenav .topics1{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -426,43 +426,43 @@
 
 /*NumberSystem section*/
 
-.numbersystem{
+.topics{
   display: flex;
   align-items: start;
   background: linear-gradient(to right,#3a6675,#b5ddea,#3a6675);
 }
 
-.numbersystem .topicbar{
+.topics .topicbar{
   width: 35%;
   position: sticky;
   top: 0;
 }
 
-.numbersystem .bodyofns{
+.topics .bodyofns{
   width: 57%;
   background-color: #ebf2f6;
   padding: 35px;
   border-radius: 10px;
 }
 
-.numbersystem .bodyofns h1, .numbersystem .bodyofns ul, .numbersystem .bodyofns ol{
+.topics .bodyofns h1, .topics .bodyofns ul, .topics .bodyofns ol{
   margin-left: 13%;
 }
 
-.numbersystem .bodyofns h1{
+.topics .bodyofns h1{
   color: #3d9bba;
 }
 
-.numbersystem .bodyofns b{
+.topics .bodyofns b{
   color: #c88444;
 }
 
-.numbersystem .bodyofns p{
+.topics .bodyofns p{
   font-weight: 600;
 }
 
-.numbersystem .bodyofns .mainpoints{
-  height: 140px;
+.topics .bodyofns .mainpoints{
+  height: 150px;
   width: 80%;
   background-color: rgb(205, 202, 190);
   border-radius: 10px;
@@ -470,14 +470,19 @@
   border-left: 15px solid black;
   border-right: 15px solid black;
   font-weight: 900;
+  line-height: 1.6;
 }
 
-.numbersystem .bodyofns h2{
+.topics .bodyofns h2{
   color: #df698b;
 }
 
-.numbersystem .bodyofns li{
+.topics .bodyofns li{
   font-weight: 600;
+}
+
+.topics .lists{
+  list-style: none;
 }
 
 /*NumberSystem section*/
